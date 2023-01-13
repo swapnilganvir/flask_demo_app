@@ -1,8 +1,6 @@
 # dsml_flask_app
 
--- docker notes 
-1. copy everything as it is from my local(.) to container(.)
->> COPY . . 
+-- docker file notes 
+1. copy everything as it is from my local(.) to container(.) --> COPY . . 
 
-2. run as a module
->> "-m"
+2. run as a module --> "-m"
