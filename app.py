@@ -10,7 +10,7 @@ clf = pickle.load(model_pickle)
 
 @app.route("/ping", methods=['GET'])
 def ping():
-    return {"message": "Hi there, I'm working!!"}
+    return {"message": "Hi there, I'm working!! 2"}
 
 
 @app.route("/params", methods=['GET'])
